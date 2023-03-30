@@ -9,8 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-appendCommitMessageToRunName:
-
 steps:
 - task: CmdLine@2
   inputs:
