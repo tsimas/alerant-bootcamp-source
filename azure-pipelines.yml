@@ -11,7 +11,7 @@ pool:
 
 appendCommitMessageToRunName:
 
-
+steps:
 - task: CmdLine@2
   inputs:
     script: |
